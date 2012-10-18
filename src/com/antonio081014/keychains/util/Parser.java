@@ -7,7 +7,7 @@ import com.antonio081014.keychains.entity.Merchant;
 import com.google.gson.Gson;
 
 /**
- * @author "Dev Perfecular Inc."
+ * @author "Antonio081014"
  * @time: Oct 17, 2012, 11:38:17 AM
  */
 public class Parser {
@@ -23,4 +23,5 @@ public class Parser {
 	Merchant merchant = gson.fromJson(s, Merchant.class);
 	return merchant;
     }
+    
 }
